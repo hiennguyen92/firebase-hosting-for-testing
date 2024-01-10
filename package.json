@@ -1,16 +1,19 @@
 {
   "name": "firebase-hosting-for-testing",
   "version": "1.0.0",
-  "description": "Firebase Hosting for Testing",
+  "description": "Peer Server for Testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "hiennguyen92",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
+    "@netlify/functions": "^2.4.1",
     "express": "^4.18.2",
-    "peer": "^1.0.2"
+    "peer": "^1.0.2",
+    "serverless-http": "^3.2.0"
   }
 }
